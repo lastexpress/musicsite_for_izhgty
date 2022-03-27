@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+a{
+	outline: none;
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	max-width: 1200px;
+	
+	margin: 0 auto;
+}
+
+.main-container{
+	
+	min-height: 600px;
+	display: flex;
+}
+
+.side{
+	
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.side p{
+	margin: 10px 0px;
+}
+
+.main-info{
+	
+	text-align: center;
+}
+
+.album-list{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 15px;
+}
+
+.rows{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.lini{
+	display: flex;
+}
